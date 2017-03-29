@@ -2,16 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>
-    </title>
+    <title> UFC Pokemon  </title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+    <link rel="shorcut icon" type="image/x-icon" href="imagen/fondo1.jpg">
   </head>
-  <body>
-    <input type="text" id="nombrePokemon" />
-    <input type="text" id="colorPokemon" />
-    <input type="text" id="puntosAtaque" />
-    <button type="button" name ="crear Pokemon" onclick="crearPokemon()">Crear Pokemon</button>
-    <section id="listaPokemons"></section>
+  <body align="center">
+    <h1 >UFC Pokemon</h1>
+    <section class="botones">
+    <input type="text" id="nombrePokemon" placeholder="Nombre del Pokemon"/>
+    <input type="text" id="colorPokemon" placeholder="Color del Pokemon" />
+    <input type="number" id="puntosAtaque" placeholder="Puntos de Ataque" />
+    <input class="botonCrear" type="button" name ="crear Pokemon" onclick="crearPokemon()"/>
+  </section>
+    <div class="menu">
+    <span id="listaPokemons" ></span>
 
+      <input id="vs" class="botonPelear" type="submit" name ="crear Pokemon" onclick="ataque()" value=""></input>
+
+    <span id="listaPokemons1" ></span>
+    </div>
+    <div>
+  <input type="button" id="pokemon" onclick="pikachu()">
+  <input type="button" id="pokemon1"onclick="pokemon1()"/>
+  <input type="button" id="pokemon2"/>
+  <input type="button" id="pokemon3" />
+
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

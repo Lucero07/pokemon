@@ -1,0 +1,63 @@
+
+@font-face{
+  font-family: "free";
+  src: url("tipografia/Road_rage.otf");
+}
+body{
+  background-image: url("imagen/ginmacio.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+h1{
+  font-family: free;
+  text-align:center;
+  color:red;
+}
+.botonCrear{
+  background-image:url("imagen/crear.png");
+  background-repeat:no-repeat;
+  height:40px;
+  width:40px;
+  background-size: 100%;
+}
+.botonPelear{
+  background-image:url("imagen/vs.png");
+  height:30px;
+  width:60px;
+  background-size: 100%;
+}
+
+#pokemon{
+  background-image:url("imagen/pokemon.jpg");
+  height:60px;
+  width:60px;
+  background-size: 100%;
+}
+#pokemon1{
+  background-image:url("imagen/pokemon1.jpg");
+  height:60px;
+  width:60px;
+  background-size: 100%;
+}
+#pokemon2{
+  background-image:url("imagen/pokemon2.jpg");
+  height:60px;
+  width:60px;
+  background-size: 100%;
+}
+#pokemon3{
+  background-image:url("imagen/pokemon3.jpg");
+  height:60px;
+  width:60px;
+  background-size: 100%;
+}
+
+
+
+
+section{
+  font-family: Helvetica;
+  color:#2da992;
+}
